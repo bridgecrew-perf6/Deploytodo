@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import TodoApp from './components/screens/TodoApp';
 import "./App.css";
-import "./components/screens/ToDo"
-import ToDo from './components/screens/ToDo';
-export class App extends Component {
-  render() {
-    return <ToDo />
-  }
-}
 
-export default App;
+export default function App() {
+  return <div>
+    <>
+      <TodoApp/>
+    </>
+  </div>;
+}
